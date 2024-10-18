@@ -49,15 +49,7 @@ export function ProjectCard({
         target="_blank"
         className={cn("block cursor-pointer", className)}
       >
-        {video && (
-          <video
-            src={video}
-            autoPlay
-            loop
-            muted
-            playsInline
-          />
-        )}
+        {video && <video src={video} autoPlay loop muted playsInline />}
         {image && (
           <Image
             src={image}

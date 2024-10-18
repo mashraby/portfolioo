@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Mashrab Yo'ldashov",
   initials: "MY",
-  url: "https://yoldashov.uz",
+  url: "http://yoldashov.uz",
   location: "Tashkent Uzbekistan",
   description:
     "Frontend Developer focused on React and TypeScript, creating responsive, user-friendly web apps.",
@@ -62,16 +62,16 @@ export const DATA = {
   },
   work: [
     {
-      company: "Startups & Self-employment",
-      href: "https://splunk.com",
+      company: "Self-employment",
+      href: "",
       badges: [],
       location: "Home",
       title: "Software Engineer",
       logoUrl: "/buildspace.jpg",
-      start: "April 2024",
+      start: "Apr 2024",
       end: "Present",
       description:
-        "I have worked on multiple startup projects, focusing on creating solutions that simplify users' lives. One of my key projects is Vocab Assist (vocab-assist.vercel.app), a platform designed to help users learn new words efficiently through interactive quizzes. Additionally, I have explored the development of MyEvently (myevently.vercel.app), an event management system aimed at streamlining event organization. I also experimented with building an online store, Shopify M23 (shopify-m23.vercel.app), to gain experience in e-commerce solutions. With each startup, I have continuously expanded my skills and knowledge, always striving to bring innovative ideas to life.",
+        "I have worked on multiple startup projects, focusing on creating solutions that simplify users' lives. One of my key projects is Vocab Assist (vocab-assist.vercel.app), a platform designed to help users learn new words efficiently through interactive quizzes. Additionally, I have explored the development of MyEvently (myevently.vercel.app), an event management system aimed at streamlining event organization. I also experimented with building an online store, Shopify (shopify-m23.vercel.app), to gain experience in e-commerce solutions. With each startup, I have continuously expanded my skills and knowledge, always striving to bring innovative ideas to life.",
     },
     {
       company: "Serius Solutions",
@@ -80,8 +80,8 @@ export const DATA = {
       location: "Tashkent",
       title: "Frontend Developer",
       logoUrl: "/serius.jpg",
-      start: "December 2023",
-      end: "March 2024",
+      start: "Dec 2023",
+      end: "Mar 2024",
       description:
         "At Serius Solutions, I played a key role in the development of the Woodline Pro website (woodlinepro.uz), utilizing my skills in React, Next.js, and TypeScript to create a high-performance, user-friendly platform. My contribution focused on building responsive and visually appealing interfaces, ensuring seamless user experiences. By collaborating with cross-functional teams, I helped deliver a product that met the client's requirements and exceeded user expectations.",
     },
@@ -92,8 +92,8 @@ export const DATA = {
       location: "Tashkent",
       title: "Frontend Developer",
       logoUrl: "/woodline.jpg",
-      start: "January 2023",
-      end: "December 2023",
+      start: "Jan 2023",
+      end: "Dec 2023",
       description:
         "I played a key role in developing a CRM system for Woodline Mebel, utilizing React, Next.js, and TypeScript to deliver a tailored solution that optimized the company's internal workflows. My contribution helped streamline business processes, improve client relationship management, and enhance overall operational efficiency. With a focus on creating intuitive interfaces and integrating key business functions, I ensured the CRM system met the specific needs of the company.",
     },
@@ -104,15 +104,15 @@ export const DATA = {
       location: "Tashkent",
       title: "Assistant Mentor",
       logoUrl: "/najot-talim.jpg",
-      start: "September 2022",
-      end: "April 2023",
+      start: "Sep 2022",
+      end: "Apr 2023",
       description:
         "As an assistant mentor at Najot Ta'lim, I guided over 50 students in mastering frontend development, focusing on React, Next.js, and TypeScript. My role involved providing personalized support to students, helping them overcome technical challenges, and ensuring they gained practical knowledge through real-world projects. I am dedicated to mentoring aspiring developers and fostering a collaborative learning environment that encourages growth and skill development.",
     },
   ],
   education: [
     {
-      school: "Tashkent Information Of Technologies",
+      school: "TUIT",
       href: "https://tuit.uz",
       degree: "Bachelor's Degree of Cyber Security",
       logoUrl: "/tuit.jpg",
@@ -120,20 +120,20 @@ export const DATA = {
       end: "2027",
     },
     {
-      school: "Najot Ta'lim LC",
+      school: "Najot Ta'lim",
       href: "https://najottalim.uz",
       degree: "FullStack Web Development Course",
       logoUrl: "/najot-talim.jpg",
-      start: "November 2021",
-      end: "August 2022",
+      start: "Nov 2021",
+      end: "Aug 2022",
     },
     {
-      school: "Self study on youtube",
+      school: "Self study",
       href: "https://youtube.com",
       degree: "Fullstack Web",
       logoUrl: "/youtube.jpg",
-      start: "June 2021",
-      end: "November 2021",
+      start: "Jun 2021",
+      end: "Nov 2021",
     },
   ],
   projects: [
