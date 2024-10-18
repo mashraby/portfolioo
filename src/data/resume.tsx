@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Mashrab Yo'ldashov",
   initials: "MY",
-  url: "http://yoldashov.uz",
+  url: "https://yoldashov.uz",
   location: "Tashkent Uzbekistan",
   description:
     "Frontend Developer focused on React and TypeScript, creating responsive, user-friendly web apps.",
