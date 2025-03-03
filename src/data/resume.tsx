@@ -62,28 +62,16 @@ export const DATA = {
   },
   work: [
     {
-      company: "Self-employment",
-      href: "",
-      badges: [],
-      location: "Home",
-      title: "Software Engineer",
-      logoUrl: "/buildspace.jpg",
-      start: "Apr 2024",
-      end: "Present",
-      description:
-        "I have worked on multiple startup projects, focusing on creating solutions that simplify users' lives. One of my key projects is Vocab Assist (vocab-assist.vercel.app), a platform designed to help users learn new words efficiently through interactive quizzes. Additionally, I have explored the development of MyEvently (myevently.vercel.app), an event management system aimed at streamlining event organization. I also experimented with building an online store, Shopify (shopify-m23.vercel.app), to gain experience in e-commerce solutions. With each startup, I have continuously expanded my skills and knowledge, always striving to bring innovative ideas to life.",
-    },
-    {
-      company: "Serius Solutions",
-      href: "https://serius.uz",
+      company: "Digital Business",
+      href: "https://digitalbiznes.uz",
       badges: [],
       location: "Tashkent",
       title: "Frontend Developer",
-      logoUrl: "/serius.jpg",
-      start: "Dec 2023",
-      end: "Mar 2024",
+      logoUrl: "/dgb-logo.svg",
+      start: "Nov 2024",
+      end: "Mar 2025",
       description:
-        "At Serius Solutions, I played a key role in the development of the Woodline Pro website (woodlinepro.uz), utilizing my skills in React, Next.js, and TypeScript to create a high-performance, user-friendly platform. My contribution focused on building responsive and visually appealing interfaces, ensuring seamless user experiences. By collaborating with cross-functional teams, I helped deliver a product that met the client's requirements and exceeded user expectations.",
+        "We developed a CRM system for banks within our digital business company, designed to streamline operations and improve customer experience. The system integrates e-imzo functionality, enabling secure digital document signing. It supports electronic documentation management, online payments, and bank card transactions, providing a comprehensive solution for modern banking needs. Our CRM also offers real-time tracking, seamless customer interactions, and efficient handling of financial transactions, ensuring enhanced productivity and service quality for banks and their clients. https://my.dgb.uz",
     },
     {
       company: "Woodline Pro",
@@ -95,7 +83,7 @@ export const DATA = {
       start: "Jan 2023",
       end: "Dec 2023",
       description:
-        "I played a key role in developing a CRM system for Woodline Mebel, utilizing React, Next.js, and TypeScript to deliver a tailored solution that optimized the company's internal workflows. My contribution helped streamline business processes, improve client relationship management, and enhance overall operational efficiency. With a focus on creating intuitive interfaces and integrating key business functions, I ensured the CRM system met the specific needs of the company.",
+        "Together with the team, I developed woodlinepro.uz, an e-commerce website using Next.js, TypeScript, and SCSS. I played a key role in improving the website’s SEO, which contributed to an increase in Woodline’s sales volume. We also integrated a payment system and built an admin panel for tracking and analyzing sales data. Throughout the project, we utilized libraries like React.js, TypeScript, and React-Query.",
     },
     {
       company: "Najot Ta'lim",
@@ -137,6 +125,29 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Digital Busieness",
+      href: "https://my.dgb.uz",
+      active: true,
+      description:
+        "Digital platform for banks and entrepreneurs to manage their business and financial operations. The platform offers a range of services, including e-imzo functionality, electronic documentation management, online payments, and bank card transactions.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Flowbite Ui",
+        "E-imzo",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://my.dgb.uz",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/my-dgb-uz.png",
+      video: "",
+    },
     {
       title: "Woodline Pro Online Shop",
       href: "https://woodlinepro.uz",
@@ -273,6 +284,34 @@ export const DATA = {
         },
       ],
       image: "/xora.png",
+      video: "",
+    },
+    {
+      title: "Shirt generator",
+      href: "https://shirt-generator-zeta.vercel.app",
+      active: true,
+      description:
+        "Shirt Generator is an online platform that lets users easily create custom t-shirt designs. Built with Vite for speed and Tailwind CSS for a modern look, it offers a user-friendly experience. With Three.js, users can visualize their designs in 3D, making custom apparel fun and accessible!",
+      technologies: [
+        "React.js",
+        "Vite",
+        "Javascript",
+        "TailwindCSS",
+        "Three.js",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://shirt-generator-zeta.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/mashraby/shirt-generator",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/shirt-gen.png",
       video: "",
     },
   ],
